@@ -106,8 +106,8 @@
 }
 
 /* align icon */
-.left-addon .fa  { left:  0px;}
-.right-addon .fa { right: 0px;}
+.left-addon .fa  { left:  0px;  color: red;}
+.right-addon .fa { right: 0px;  color: red;}
 
 /* add padding  */
 .left-addon input  { padding-left:  30px; width: 150px;}
@@ -118,4 +118,18 @@
     input {
         width: 160px;
     }
+}
+.label-country {
+    margin-left: 30px;
+}
+.label-arrival-date {
+    margin-left: 150px;
+}
+
+.label-departure-date {
+    margin-left: 130px;
+}
+
+.label-number-of-travelers {
+    margin-left: 100px;
 }

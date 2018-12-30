@@ -82,10 +82,12 @@
 
 /* align icon */
 .left-addon .fa {
-  left: 0px; }
+  left: 0px;
+  color: red; }
 
 .right-addon .fa {
-  right: 0px; }
+  right: 0px;
+  color: red; }
 
 /* add padding  */
 .left-addon input {
@@ -99,3 +101,15 @@
   left: -50px; }
   .input-travelers input {
     width: 160px; }
+
+.label-country {
+  margin-left: 30px; }
+
+.label-arrival-date {
+  margin-left: 150px; }
+
+.label-departure-date {
+  margin-left: 130px; }
+
+.label-number-of-travelers {
+  margin-left: 100px; }

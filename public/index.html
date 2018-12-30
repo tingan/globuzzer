@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/jquery-ui.min.css" rel="stylesheet">
   <title>Globuzzer</title>
 </head>
 <body>
@@ -85,15 +86,10 @@
       </div>
       <form class="col-lg-12 rounded" id="searchForm">
         <div class="row row-label">
-          <div class="form-group col-md-3 mt-3">
-            <label class="text-white">Country</label>
-          </div>
-          <div class="form-group col-md-3 mt-3">
-            <label class="text-white">Arrival date</label>
-          </div>
-          <div class="form-group col-md-3 mt-3 ml-1">
-            <label class="text-white">Depature date</label>
-          </div>
+          <label class="text-white label-country">Country</label>
+          <label class="text-white label-arrival-date">Arrival date</label>
+          <label class="text-white label-departure-date">Departure date</label>
+          <label class="text-white label-number-of-travelers">Number of travelers</label>
         </div>
         <div class="row row-control">
           <div class="form-group col-md-3 mt-3">
@@ -111,10 +107,10 @@
           </div>
           <div class="form-group form-inline col-md-7 mt-3">
             <div class="inner-addon left-addon">
-              <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date" class="form-control" id="arrival-date">
+              <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date" class="form-control datepicker" id="arrival-date">
             </div>
             <div class="inner-addon left-addon">
-              <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date" class="form-control" id="departure-date">
+              <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date" class="form-control datepicker" id="departure-date">
             </div>
           </div>
           <div class="form-group col-md-2 mt-3 input-travelers">
@@ -140,56 +136,12 @@
     <div class="row">
       <section class="col-12">
 
-        <h2>Our Mission345dddd</h2>
+        <h2>Our Mission</h2>
 
         <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment
           of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in
           the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
-
-        <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care
-          plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most
-          appropriate care at crucial milestones. We want to give your pet a long and healthy life.</p>
-
-        <h2>Exotic Pets</h2>
-        <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
-
-        <h2>Services</h2>
-
-        <h3>Grooming</h3>
-        <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
-
-        <h3>General Health</h3>
-        <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
-
-        <h3>Nutrition</h3>
-        <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease
-          prevention.
-        </p>
-
-        <h3>Pest Control</h3>
-        <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and
-          other parasites.</p>
-
-        <h3>Vaccinations</h3>
-        <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in
-          pets.
-        </p>
-
-        <h2>Our Staff</h2>
-        Our Staff
-
-        <h3>Dr. Winthrop</h3>
-        <p>Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is
-          passionate about spay and neuter and pet adoption, and works tireless hours outside the clinic, performing free
-          spay and neuter surgeries for the shelter.</p>
-
-        <h3>Dr. Chase</h3>
-        <p>Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles
-          - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.</p>
-
-        <h3>Dr Sanders</h3>
-        <p>Leroy walked into Dr. Sanders front door when he was moving into a new house. After searching for weeks for Leroy's
-          guardians, he decided to make Leroy a part of his pet family, and now has three cats.</p>
+        
 
       </section>
     </div>
@@ -197,9 +149,10 @@
   </div>
   <!-- content container -->
 
-  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
   <script src="js/custom.js"></script>
 </body>
 
