@@ -1,0 +1,101 @@
+.navbar-custom {
+  background-color: #303030; }
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #ffffff; }
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff; }
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff; }
+
+.dropdown-currencies {
+  background-color: #303030 !important;
+  font-size: 0.9rem;
+  height: 2rem; }
+  .dropdown-currencies:hover {
+    background-color: #303030; }
+
+.carousel-item img {
+  height: 500px; }
+
+.navbar-toggler-icon {
+  background-image: url("../images/menu.svg"); }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+  .carousel-indicators li.active {
+    background-color: red; }
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%; }
+
+#searchForm {
+  position: absolute;
+  width: 75%;
+  top: 50%;
+  left: 15%; }
+  #searchForm .row-control {
+    background: rgba(142, 141, 131, 0.6); }
+  #searchForm .row-label {
+    margin-bottom: -25px; }
+
+.btn-discover {
+  position: relative;
+  border-radius: 25px !important;
+  width: 100px;
+  left: -15px;
+  top: -35px; }
+
+.dropdown-countries button {
+  width: 185px;
+  color: #303030;
+  background-color: white !important; }
+  .dropdown-countries button:hover {
+    color: #303030; }
+.dropdown-countries i {
+  color: red;
+  position: absolute;
+  pointer-events: none;
+  left: 10px; }
+
+/* enable absolute positioning */
+.inner-addon {
+  position: relative; }
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  color: red; }
+
+/* align icon */
+.left-addon .fa {
+  left: 0px; }
+
+.right-addon .fa {
+  right: 0px; }
+
+/* add padding  */
+.left-addon input {
+  padding-left: 30px;
+  width: 150px; }
+
+.right-addon input {
+  padding-right: 30px; }
+
+.input-travelers {
+  left: -50px; }
+  .input-travelers input {
+    width: 160px; }
