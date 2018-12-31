@@ -53,6 +53,7 @@
 </div>
 <!-- container -->
 <div class="container">
+    <!-- start carousel section -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -86,45 +87,48 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12 d-flex flex-column justify-content-center align-items-center position-absolute" id="searchForm">
+        <div class="col-md-12 d-flex flex-column justify-content-center align-items-center position-absolute"
+             id="searchForm">
 
-        <form class="p-2 rounded d-flex flex-lg-row flex-md-column flex-sm-column flex-column row-control">
-            <div class="mr-lg-2">
-                <div class="dropdown dropdown-countries w-sm-100">
-                    <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-map-marker"></i> <span class="dropdown-text text-muted">Select a country</span>
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Sweden</a>
-                        <a class="dropdown-item" href="#">Finland</a>
-                        <a class="dropdown-item" href="#">Denmark</a>
-                        <a class="dropdown-item" href="#">Norway</a>
+            <form class="p-2 rounded d-flex flex-lg-row flex-md-column flex-sm-column flex-column row-control">
+                <div class="mr-lg-2">
+                    <div class="dropdown dropdown-countries w-sm-100">
+                        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-map-marker"></i> <span
+                                class="dropdown-text text-muted">Select a country</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Sweden</a>
+                            <a class="dropdown-item" href="#">Finland</a>
+                            <a class="dropdown-item" href="#">Denmark</a>
+                            <a class="dropdown-item" href="#">Norway</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="">
+                <div class="">
 
-                <div class="inner-addon left-addon">
-                    <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date"
-                                                         class="form-control datepicker" id="arrival-date">
+                    <div class="inner-addon left-addon">
+                        <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date"
+                                                             class="form-control datepicker" id="arrival-date">
+                    </div>
+
+
                 </div>
+                <div class="">
 
-
-            </div>
-            <div class="">
-
-                <div class="inner-addon left-addon">
-                    <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date"
-                                                         class="form-control datepicker" id="departure-date">
+                    <div class="inner-addon left-addon">
+                        <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date"
+                                                             class="form-control datepicker" id="departure-date">
+                    </div>
                 </div>
-            </div>
-            <div class="ml-lg-2">
-                <div class="inner-addon left-addon">
-                    <i class="fa fa-users"></i><input type="text" value='' placeholder="Type a number" class="form-control" id="number-of-travelers">
+                <div class="ml-lg-2">
+                    <div class="inner-addon left-addon">
+                        <i class="fa fa-users"></i><input type="text" value='' placeholder="Type a number"
+                                                          class="form-control" id="number-of-travelers">
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
             <div class="mt-md-3 mt-1 btn btn-large">
                 <button class="btn btn-discover rounded btn-sm btn-danger">Discover</button>
             </div>
@@ -140,29 +144,72 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <div class="row">
-        <section class="col-12">
+    <!-- end carousel section -->
 
-            <h2>Our Mission</h2>
+    <div class="container">
+        <!-- start motto section -->
+        <div class="row row-motto p-5">
+            <section class="col-md-4 col-12 d-flex justify-content-center align-items-center">
 
-            <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis
-                and treatment
-                of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
-                garnered in
-                the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+                <p class="motto-text-short text-center font-weight-bold">Discover the Nordics <br> with our package</p>
 
+            </section>
+            <section class="col-md-8 col-12">
 
-        </section>
+                <p class="text-muted">Lobortis sed praesent auctor a ullamcorper ad nascetur, fusce dapibus blandit
+                    ornare imperdiet hac
+                    phasellus, condimentum venenatis purus placerat habitasse mus. Urna auctor felis consectetur vivamus
+                    in habitant laoreet amet porta adipiscing.
+                </p>
+
+            </section>
+        </div>
+        <!-- end motto section -->
+
+        <!-- start icons section -->
+        <div class="row row-icons">
+            <div class="col-12 text-center mt-5">
+                <h5 class="font-weight-bold motto-text-short">We've got everything you need, all in one place</h5>
+            </div>
+            <div class="col-12 d-flex justify-content-around mt-4">
+                <div class="card border-0">
+                    <img class="img-fluid card-img-top icon-action mx-auto" src="images/customer-support.svg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <small class="card-title">24/7 customer support</small>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img class="img-fluid card-img-top icon-action mx-auto" src="images/map.svg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <small class="card-title">Local guide</small>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img class="img-fluid card-img-top icon-action mx-auto" src="images/product.svg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <small class="card-title">Customized packages</small>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img class="img-fluid card-img-top icon-action mx-auto" src="images/list.svg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <small class="card-title">All in one</small>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end icons section -->
+        </div>
+
+        <!-- row -->
     </div>
-    <!-- row -->
-</div>
-<!-- content container -->
+    <!-- content container -->
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/custom.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

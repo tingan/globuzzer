@@ -100,3 +100,16 @@
 
 .bd-blue {
   outline: 1px solid blue; }
+
+/* motto section */
+.row-motto {
+  background-color: #f5ebea; }
+
+.motto-text-short {
+  color: #20445c; }
+
+.row-icons {
+  background-color: #ffffff; }
+
+.icon-action {
+  width: 80px; }
