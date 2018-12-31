@@ -1,3 +1,6 @@
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+  cursor: pointer; }
+
 .navbar-custom {
   background-color: #303030; }
 
@@ -48,7 +51,8 @@
     margin-bottom: -25px; }
 
 .btn-discover {
-  border-radius: 25px !important; }
+  border-radius: 25px !important;
+  width: 100px; }
 
 .dropdown-countries button {
   width: 100%;
@@ -124,3 +128,10 @@
     @media (min-width: 992px) {
       .row-gallery img {
         height: 300px; } }
+    .row-gallery img:hover, .row-gallery img:focus {
+      outline: 2px solid red; }
+
+.country-caption {
+  color: #ffffff;
+  left: 40%;
+  top: 50%; }

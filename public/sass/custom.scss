@@ -1,4 +1,10 @@
 @import "variables/*";
+
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+    cursor: pointer;
+}
+
 .navbar-custom {
     background-color: $darkBlack;
 }
@@ -65,6 +71,7 @@
 
 .btn-discover {
     border-radius: 25px !important;
+    width: 100px;
 }
 
 .dropdown-countries {
@@ -151,6 +158,15 @@
         @media (min-width: $breakpoint-lg) {
             height: 300px;
         }
+        &:hover, &:focus {
+            outline: 2px solid red;
+        }
 
     }
+}
+
+.country-caption {
+    color: $white;
+    left:40%;
+    top:50%;
 }
