@@ -1,7 +1,3 @@
-// Required
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
 @import "variables/*";
 .navbar-custom {
     background-color: $darkBlack;
@@ -74,7 +70,7 @@
 .dropdown-countries {
     button {
         width: 100%;
-        @media (min-width: 992px) {
+        @media (min-width: $breakpoint-lg) {
             width: 185px;
         }
 
@@ -137,10 +133,24 @@
     color: $darkBlue;
 }
 
+/* icons section */
 .row-icons {
     background-color: $white;
 }
 
 .icon-action {
     width: 80px;
+}
+
+/* gallary section */
+.row-gallery {
+    background-color: $lightBlue;
+    img {
+        width: 100%;
+        height: 200px;
+        @media (min-width: $breakpoint-lg) {
+            height: 300px;
+        }
+
+    }
 }

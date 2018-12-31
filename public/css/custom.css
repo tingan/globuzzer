@@ -108,8 +108,19 @@
 .motto-text-short {
   color: #20445c; }
 
+/* icons section */
 .row-icons {
   background-color: #ffffff; }
 
 .icon-action {
   width: 80px; }
+
+/* gallary section */
+.row-gallery {
+  background-color: #e6f2f2; }
+  .row-gallery img {
+    width: 100%;
+    height: 200px; }
+    @media (min-width: 992px) {
+      .row-gallery img {
+        height: 300px; } }
