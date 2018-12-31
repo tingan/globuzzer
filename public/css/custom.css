@@ -41,26 +41,22 @@
   top: 50%; }
 
 #searchForm {
-  position: absolute;
-  width: 75%;
-  top: 50%;
-  left: 15%; }
+  top: 50%; }
   #searchForm .row-control {
     background: rgba(142, 141, 131, 0.6); }
   #searchForm .row-label {
     margin-bottom: -25px; }
 
 .btn-discover {
-  position: relative;
-  border-radius: 25px !important;
-  width: 100px;
-  left: -15px;
-  top: -35px; }
+  border-radius: 25px !important; }
 
 .dropdown-countries button {
-  width: 185px;
+  width: 100%;
   color: #303030;
   background-color: white !important; }
+  @media (min-width: 992px) {
+    .dropdown-countries button {
+      width: 185px; } }
   .dropdown-countries button:hover {
     color: #303030; }
 .dropdown-countries i {
@@ -91,25 +87,16 @@
 
 /* add padding  */
 .left-addon input {
-  padding-left: 30px;
-  width: 150px; }
+  padding-left: 30px; }
 
 .right-addon input {
   padding-right: 30px; }
 
-.input-travelers {
-  left: -50px; }
-  .input-travelers input {
-    width: 160px; }
+.input-travelers input {
+  width: 180px; }
 
-.label-country {
-  margin-left: 30px; }
+.bd-red {
+  outline: 1px solid red; }
 
-.label-arrival-date {
-  margin-left: 150px; }
-
-.label-departure-date {
-  margin-left: 130px; }
-
-.label-number-of-travelers {
-  margin-left: 100px; }
+.bd-blue {
+  outline: 1px solid blue; }

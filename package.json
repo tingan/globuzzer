@@ -12,6 +12,7 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "bootstrap": "^4.2.1",
     "open": "0.0.5"
   }
 }

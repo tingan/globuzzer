@@ -2,158 +2,167 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/jquery-ui.min.css" rel="stylesheet">
-  <title>Globuzzer</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <title>Globuzzer</title>
 </head>
 <body>
-  <div class="container">
-  <nav class="navbar navbar-custom navbar-expand-md">
-       <a href="#" class="navbar-brand ml-5">GL<img width="30px" src="./images/global.png" alt="logo">BUZZER</a>
-      <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<div class="container">
+    <nav class="navbar navbar-custom navbar-expand-md">
+        <a href="#" class="navbar-brand ml-5">GL<img width="30px" src="./images/global.png" alt="logo">BUZZER</a>
+        <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#myTogglerNav"
+                aria-controls="myTogglerNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="myTogglerNav">
+        <div class="collapse navbar-collapse" id="myTogglerNav">
 
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="#"><i class="fa fa-home mr-2"></i>Home</a>
-          <a class="nav-item nav-link" href="#"><i class="fa fa-bicycle mr-2"></i>Services</a>
-          <a class="nav-item nav-link" href="#"><i class="fa fa-shopping-cart mr-2"></i>My package</a>
-        </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#"><i class="fa fa-home mr-2"></i>Home</a>
+                <a class="nav-item nav-link" href="#"><i class="fa fa-bicycle mr-2"></i>Services</a>
+                <a class="nav-item nav-link" href="#"><i class="fa fa-shopping-cart mr-2"></i>My package</a>
+            </div>
 
 
-        <div class="dropdown show">
-          <a class="btn btn-secondary dropdown-toggle dropdown-currencies border ml-lg-5" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="dropdown-text">EUR</span>
-          </a>
-        
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="#">EUR</a>
-            <a class="dropdown-item" href="#">DOLLAR</a>
-            <a class="dropdown-item" href="#">POUND</a>
-          </div>
-        </div>
-        <!-- navbar -->
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle dropdown-currencies border ml-lg-5" href="#" role="button"
+                   id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="dropdown-text">EUR</span>
+                </a>
 
-      </div>
-      <!--Collapse-->
-
-  </nav>
-  <!-- nav -->
-</div>
-<!-- container -->
-  <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="img-fluid d-block w-100" src="images/stockholm.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Welcome to Sweden</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="img-fluid d-block w-100" src="images/helsinki.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Welcome to Finland</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="img-fluid d-block w-100" src="images/copenhangen.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Welcome to Denmark</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="img-fluid d-block w-100" src="images/olso.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Welcome to Norway</h3>
-          </div>
-        </div>
-      </div>
-      <form class="col-lg-12 rounded" id="searchForm">
-        <div class="row row-label">
-          <label class="text-white label-country">Country</label>
-          <label class="text-white label-arrival-date">Arrival date</label>
-          <label class="text-white label-departure-date">Departure date</label>
-          <label class="text-white label-number-of-travelers">Number of travelers</label>
-        </div>
-        <div class="row row-control">
-          <div class="form-group col-md-3 mt-3">
-              <div class="dropdown dropdown-countries">
-                <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-map-marker"></i> <span class="dropdown-text text-muted">Select a country</span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Sweden</a>
-                  <a class="dropdown-item" href="#">Finland</a>
-                  <a class="dropdown-item" href="#">Denmark</a>
-                  <a class="dropdown-item" href="#">Norway</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">EUR</a>
+                    <a class="dropdown-item" href="#">DOLLAR</a>
+                    <a class="dropdown-item" href="#">POUND</a>
                 </div>
             </div>
-          </div>
-          <div class="form-group form-inline col-md-7 mt-3">
-            <div class="inner-addon left-addon">
-              <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date" class="form-control datepicker" id="arrival-date">
-            </div>
-            <div class="inner-addon left-addon">
-              <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date" class="form-control datepicker" id="departure-date">
-            </div>
-          </div>
-          <div class="form-group col-md-2 mt-3 input-travelers">
-            <div class="inner-addon left-addon">
-              <i class="fa fa-users"></i><input type="text" value='' placeholder="Type a number" class="form-control" id="number-of-travelers">
-            </div>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <button class="btn btn-discover mx-auto rounded btn-sm btn-danger">Discover</button>
-        </div>
-      </form>
+            <!-- navbar -->
 
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+        </div>
+        <!--Collapse-->
+
+    </nav>
+    <!-- nav -->
+</div>
+<!-- container -->
+<div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid d-block w-100" src="images/stockholm.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome to Sweden</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid d-block w-100" src="images/helsinki.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome to Finland</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid d-block w-100" src="images/copenhangen.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome to Denmark</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid d-block w-100" src="images/olso.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome to Norway</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 d-flex flex-column justify-content-center align-items-center position-absolute" id="searchForm">
+
+        <form class="rounded d-flex flex-lg-row flex-md-column flex-sm-column flex-column row-control">
+            <div class="mr-lg-2">
+                <div class="dropdown dropdown-countries w-sm-100">
+                    <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-map-marker"></i> <span class="dropdown-text text-muted">Select a country</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Sweden</a>
+                        <a class="dropdown-item" href="#">Finland</a>
+                        <a class="dropdown-item" href="#">Denmark</a>
+                        <a class="dropdown-item" href="#">Norway</a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+
+                <div class="inner-addon left-addon">
+                    <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date"
+                                                         class="form-control datepicker" id="arrival-date">
+                </div>
+
+
+            </div>
+            <div class="">
+
+                <div class="inner-addon left-addon">
+                    <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date"
+                                                         class="form-control datepicker" id="departure-date">
+                </div>
+            </div>
+            <div class="ml-lg-2">
+                <div class="inner-addon left-addon">
+                    <i class="fa fa-users"></i><input type="text" value='' placeholder="Type a number" class="form-control" id="number-of-travelers">
+                </div>
+            </div>
+        </form>
+            <div class="mt-3 btn btn-large">
+                <button class="btn btn-discover rounded btn-sm btn-danger">Discover</button>
+            </div>
+        </div>
+
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
     <div class="row">
-      <section class="col-12">
+        <section class="col-12">
 
-        <h2>Our Mission</h2>
+            <h2>Our Mission</h2>
 
-        <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment
-          of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in
-          the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
-        
+            <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis
+                and treatment
+                of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom
+                garnered in
+                the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
 
-      </section>
+
+        </section>
     </div>
     <!-- row -->
-  </div>
-  <!-- content container -->
+</div>
+<!-- content container -->
 
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
-  <script src="js/custom.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 
 </html>

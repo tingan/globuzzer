@@ -1,3 +1,7 @@
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 @import "variables/*";
 .navbar-custom {
     background-color: $darkBlack;
@@ -54,10 +58,7 @@
 }
 
 #searchForm {
-    position:absolute;
-    width: 75%;
     top:50%;
-    left:15%;
     .row-control {
         background: rgba(142,141,131,0.6);
     }
@@ -67,16 +68,16 @@
 }
 
 .btn-discover {
-    position:relative;;
     border-radius: 25px !important;
-    width: 100px;
-    left: -15px;
-    top: -35px;
 }
 
 .dropdown-countries {
     button {
-        width: 185px;
+        width: 100%;
+        @media (min-width: 992px) {
+            width: 185px;
+        }
+
         color: $darkBlack;
         background-color: white !important;
         &:hover {
@@ -110,26 +111,19 @@
 .right-addon .fa { right: 0px;  color: red;}
 
 /* add padding  */
-.left-addon input  { padding-left:  30px; width: 150px;}
-.right-addon input { padding-right: 30px; }
+.left-addon input  { padding-left:  30px;}
+.right-addon input { padding-right: 30px;}
 
 .input-travelers {
-    left: -50px;
     input {
-        width: 160px;
+        width: 180px;
     }
 }
-.label-country {
-    margin-left: 30px;
-}
-.label-arrival-date {
-    margin-left: 150px;
+
+.bd-red {
+    outline: 1px solid red;
 }
 
-.label-departure-date {
-    margin-left: 130px;
-}
-
-.label-number-of-travelers {
-    margin-left: 100px;
+.bd-blue {
+    outline: 1px solid blue;
 }
