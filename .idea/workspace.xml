@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5457d228-e809-4186-a1d8-92663d1964d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
               <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -78,6 +85,7 @@
         <option value="$PROJECT_DIR$/public/js/custom.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/sass/custom.scss" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -162,12 +170,12 @@
       <updated>1546159357472</updated>
       <workItem from="1546159362399" duration="13741000" />
       <workItem from="1546250143546" duration="13727000" />
-      <workItem from="1546337750991" duration="11104000" />
+      <workItem from="1546337750991" duration="11121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38572000" />
+    <option name="totallyTimeSpent" value="38589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="740" extended-state="6" />
@@ -250,6 +258,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
