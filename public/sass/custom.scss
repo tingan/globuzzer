@@ -162,14 +162,15 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 /* gallary section */
 .row-gallery {
 
-    img:hover +.country-caption > .btn-choose, .btn-choose:hover {
-        display: inline-block;
-    }
+
     background-color: $lightBlue;
     .btn-choose {
         border-radius: 25px !important;
         width: 100px;
         display: none;
+        &:hover, &:focus {
+            display: block;
+        }
     }
     img {
         width: 100%;
@@ -180,6 +181,12 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
         &:hover, &:focus {
             outline: 2px solid red;
         }
+    }
+    img:hover +.country-caption > .btn-choose {
+        display: block;
+    }
+    .country-caption:hover > .btn-choose{
+        display: block;
     }
 }
 
