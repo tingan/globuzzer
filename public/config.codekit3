@@ -162,6 +162,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/visit-denmark.png": {
+		"ft": 32768,
+		"iS": 528300,
+		"oA": 0,
+		"oAP": "/images/visit-denmark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/visit-finland.png": {
+		"ft": 32768,
+		"iS": 523371,
+		"oA": 0,
+		"oAP": "/images/visit-finland.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/visit-norway.png": {
+		"ft": 32768,
+		"iS": 401436,
+		"oA": 0,
+		"oAP": "/images/visit-norway.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/visit-sweden.png": {
 		"ft": 32768,
 		"iS": 290983,
