@@ -153,6 +153,9 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
     color: white; }
   .row-video .video-section-body {
     background-color: #383737; }
+    .row-video .video-section-body img:hover, .row-video .video-section-body img:focus {
+      outline: 2px solid red;
+      cursor: pointer; }
   .row-video .media-body {
     bottom: 0%;
     width: 100%;

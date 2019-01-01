@@ -190,6 +190,12 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
     }
     .video-section-body {
         background-color: $darkGrey;
+        img {
+            &:hover, &:focus {
+                outline: 2px solid red;
+                cursor: pointer;
+            }
+        }
     }
     .media-body {
         bottom: 0%;
