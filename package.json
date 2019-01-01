@@ -12,6 +12,7 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "json-server": "^0.14.2",
     "open": "0.0.5"
   }
 }

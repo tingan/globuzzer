@@ -92,8 +92,9 @@
 
             <form class="p-2 rounded d-flex flex-lg-row flex-md-column flex-sm-column flex-column row-control">
                 <div class="mr-lg-2">
+                    <label class="control-label d-none d-lg-inline position-absolute pl-2" for="dropdownCountryButton">Country</label>
                     <div class="dropdown dropdown-countries w-sm-100">
-                        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton"
+                        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownCountryButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-map-marker"></i> <span
                                 class="dropdown-text text-muted">Select a country</span>
@@ -107,7 +108,7 @@
                     </div>
                 </div>
                 <div class="">
-
+                    <label class="control-label d-none d-lg-inline position-absolute pl-2" for="arrival-date">Arrival date</label>
                     <div class="inner-addon left-addon">
                         <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date"
                                                              class="form-control datepicker" id="arrival-date">
@@ -116,13 +117,14 @@
 
                 </div>
                 <div class="">
-
+                    <label class="control-label d-none d-lg-inline position-absolute pl-2" for="departure-date">Departure date</label>
                     <div class="inner-addon left-addon">
                         <i class="fa fa-calendar"></i><input type="text" value='' placeholder="Select a date"
                                                              class="form-control datepicker" id="departure-date">
                     </div>
                 </div>
                 <div class="ml-lg-2">
+                    <label class="control-label d-none d-lg-inline position-absolute pl-2" for="number-of-travelers">Number of travelers</label>
                     <div class="inner-addon left-addon">
                         <i class="fa fa-users"></i><input type="text" value='' placeholder="Type a number"
                                                           class="form-control" id="number-of-travelers">

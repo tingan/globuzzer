@@ -68,7 +68,10 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
         margin-bottom: -25px;
     }
 }
-
+.control-label {
+    top: -20px;
+    color: white;
+}
 .btn-discover {
     border-radius: 25px !important;
     width: 100px;
