@@ -162,6 +162,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/visit-sweden.png": {
+		"ft": 32768,
+		"iS": 290983,
+		"oA": 0,
+		"oAP": "/images/visit-sweden.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/world.svg": {
 		"ft": 2097152,
 		"miP": 0,

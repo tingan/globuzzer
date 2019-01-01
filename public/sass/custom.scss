@@ -127,13 +127,16 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 }
 
 .bd-red {
-    outline: 1px solid red;
+    outline: 2px solid red;
 }
 
 .bd-blue {
-    outline: 1px solid blue;
+    outline: 2px solid blue;
 }
 
+.bd-cyan {
+    outline: 2px solid cyan;
+}
 /* motto section */
 .row-motto {
     background-color: $pink;
@@ -172,4 +175,25 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
     color: $white;
     left:40%;
     top:50%;
+}
+
+/* video section */
+.row-video {
+    background-color: white;
+    .featured-video {
+        .video-title {
+            top: 15%;
+            left: 15px;
+            background-color: black;
+            color: white;
+        }
+    }
+    .video-section-body {
+        background-color: $darkGrey;
+    }
+    .media-body {
+        bottom: 0%;
+        width: 100%;
+        background-color: rgba(0,0,0, .5);
+    }
 }

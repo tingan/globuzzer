@@ -104,10 +104,13 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
   width: 180px; }
 
 .bd-red {
-  outline: 1px solid red; }
+  outline: 2px solid red; }
 
 .bd-blue {
-  outline: 1px solid blue; }
+  outline: 2px solid blue; }
+
+.bd-cyan {
+  outline: 2px solid cyan; }
 
 /* motto section */
 .row-motto {
@@ -139,3 +142,18 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
   color: #ffffff;
   left: 40%;
   top: 50%; }
+
+/* video section */
+.row-video {
+  background-color: white; }
+  .row-video .featured-video .video-title {
+    top: 15%;
+    left: 15px;
+    background-color: black;
+    color: white; }
+  .row-video .video-section-body {
+    background-color: #383737; }
+  .row-video .media-body {
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
