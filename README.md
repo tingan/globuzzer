@@ -19,5 +19,5 @@ Run this command from the directory in which you want to install the application
 
 It will open a new page in http://localhost:3000.
 
-![Screenshot](https://github.com/tingan/globuzzer/blob/master/Screenshot.jpg)
+![Screenshot](https://github.com/tingan/globuzzer/blob/master/Screenshot.png)
 
