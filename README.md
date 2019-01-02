@@ -10,7 +10,7 @@ This is a demo implementation of responsive design. The technologies used includ
 
 ## Install the Application
 
-Run this command from the directory in which you want to install your new Slim Framework application.
+Run this command from the directory in which you want to install the application.
 
     git clone git@github.com:tingan/globuzzer.git
     cd globuzzer
