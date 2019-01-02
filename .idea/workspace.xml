@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5457d228-e809-4186-a1d8-92663d1964d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/custom-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom-min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
     </list>
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="509">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -180,12 +179,12 @@
       <workItem from="1546159362399" duration="13741000" />
       <workItem from="1546250143546" duration="13727000" />
       <workItem from="1546337750991" duration="11890000" />
-      <workItem from="1546419042014" duration="9353000" />
+      <workItem from="1546419042014" duration="9495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48711000" />
+    <option name="totallyTimeSpent" value="48853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="24" width="1280" height="740" extended-state="6" />
@@ -281,8 +280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="509">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
     </entry>

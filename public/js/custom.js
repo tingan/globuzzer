@@ -34,11 +34,11 @@ $(function () {
       case 'Finland':
         loadIframe('youtube-video', 'QOQWN9Q95oE');
         $videoTitle.text('Visit Finland');
+        break;
       case 'Norway':
         loadIframe('youtube-video', 'uXyy7lgDj9k');
         $videoTitle.text('Visit Norway');
         break;
-      // code block
     }
 
 
