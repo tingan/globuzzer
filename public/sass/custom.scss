@@ -129,16 +129,10 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 }
 
 .bd-red {
-    outline: 1px solid red;
+    border: 1px solid red;
 }
 
-.bd-blue {
-    outline: 1px solid blue;
-}
 
-.bd-cyan {
-    outline: 1px solid cyan;
-}
 /* motto section */
 .row-motto {
     background-color: $pink;
@@ -179,7 +173,7 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
             height: 300px;
         }
         &:hover, &:focus {
-            outline: 2px solid red;
+            @extend .bd-red;
         }
     }
     img:hover +.country-caption > .btn-choose {

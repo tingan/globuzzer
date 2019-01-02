@@ -106,14 +106,8 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 .input-travelers input {
   width: 180px; }
 
-.bd-red {
-  outline: 1px solid red; }
-
-.bd-blue {
-  outline: 1px solid blue; }
-
-.bd-cyan {
-  outline: 1px solid cyan; }
+.bd-red, .row-gallery img:hover, .row-gallery img:focus {
+  border: 1px solid red; }
 
 /* motto section */
 .row-motto {
@@ -144,8 +138,6 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
     @media (min-width: 992px) {
       .row-gallery img {
         height: 300px; } }
-    .row-gallery img:hover, .row-gallery img:focus {
-      outline: 2px solid red; }
   .row-gallery img:hover + .country-caption > .btn-choose {
     display: block; }
   .row-gallery .country-caption:hover > .btn-choose {

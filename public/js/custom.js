@@ -12,6 +12,17 @@ $(function () {
     return true;
   }
 
+  $( ".img-gallery-item" ).on('mouseenter', function(){
+     chooseCountry($(this).next().find('h5').text());
+    });
+
+  function chooseCountry(country_name) {
+    $('.img-gallery-item').removeClass('bd-red');
+    $('.img-gallery-' + country_name).addClass('bd-red');
+    $('.img-gallery-item').next().find('.btn-choose').hide();
+    $('.img-gallery-' + country_name).next().find('.btn-choose').show();
+  }
+
   $('#currency-dropdown a').on('click', function () {
     $(this).parent().parent().find('.dropdown-text').html($(this).html());
   });
@@ -40,6 +51,7 @@ $(function () {
         $videoTitle.text('Visit Norway');
         break;
     }
+    chooseCountry($(this).html());
 
 
   });
