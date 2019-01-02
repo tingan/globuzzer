@@ -1,12 +1,13 @@
 $(function () {
   $dropdown = $('#country-dropdown');
   $videoTitle = $('#video-title');
-
-  function loadIframe(iframeName, url) {
-    var $iframe = $('#' + iframeName);
+  $youtube = {'Sweden':'g9QpC7QwnRU', 'Denmark': 'ejMa4qKmSVo', 'Finland': 'QOQWN9Q95oE', 'Norway': 'uXyy7lgDj9k'};
+  function loadIframe(country_name) {
+    var $iframe = $('#youtube-video');
     $youtubeURL = 'https://www.youtube.com/embed/';
     if ($iframe.length) {
-      $iframe.attr('src', $youtubeURL + url + '?rel=0');
+      $iframe.attr('src', $youtubeURL + $youtube[country_name] + '?rel=0');
+      $videoTitle.text('Visit ' + country_name);
       return false;
     }
     return true;
@@ -21,6 +22,7 @@ $(function () {
     $('.img-gallery-' + country_name).addClass('bd-red');
     $('.img-gallery-item').next().find('.btn-choose').hide();
     $('.img-gallery-' + country_name).next().find('.btn-choose').show();
+    loadIframe(country_name)
   }
 
   $('#currency-dropdown a').on('click', function () {
@@ -32,28 +34,10 @@ $(function () {
 
 
   $('#country-dropdown').on('click', 'a', function () {
-    $(this).parent().parent().find('.dropdown-text').html($(this).html());
-    switch ($(this).html()) {
-      case 'Sweden':
-        loadIframe('youtube-video', 'g9QpC7QwnRU');
-        $videoTitle.text('Visit Sweden');
-        break;
-      case 'Denmark':
-        loadIframe('youtube-video', 'ejMa4qKmSVo');
-        $videoTitle.text('Visit Denmark');
-        break;
-      case 'Finland':
-        loadIframe('youtube-video', 'QOQWN9Q95oE');
-        $videoTitle.text('Visit Finland');
-        break;
-      case 'Norway':
-        loadIframe('youtube-video', 'uXyy7lgDj9k');
-        $videoTitle.text('Visit Norway');
-        break;
-    }
-    chooseCountry($(this).html());
-
-
+    var country_name = $(this).html();
+    $(this).parent().parent().find('.dropdown-text').html(country_name);
+    loadIframe(country_name);
+    chooseCountry(country_name);
   });
   $.ajax({
     url: "http://localhost:3000/countries",
@@ -76,6 +60,12 @@ $(function () {
         $dropdown.append($("<a class='dropdown-item' />").text(this.country_name));
       });
     });
+
+  $('.video-thumbnail').on('click', function() {
+    var country_name = $(this).attr('alt');
+    chooseCountry(country_name);
+    loadIframe(country_name);
+  });
 
 
 });
