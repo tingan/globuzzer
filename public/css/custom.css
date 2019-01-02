@@ -177,6 +177,10 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 /* contact us section */
 .row-contact {
   background-color: #f5ebea; }
+  .row-contact .coffee-cup {
+    width: 20px; }
+  .row-contact .address-block i {
+    color: red; }
 
 .btn-msg {
   border-radius: 25px !important; }

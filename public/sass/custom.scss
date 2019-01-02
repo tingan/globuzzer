@@ -226,6 +226,14 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 /* contact us section */
 .row-contact {
     background-color: $pink;
+    .coffee-cup {
+        width: 20px;
+    }
+    .address-block {
+        i {
+            color: red;
+        }
+    }
 }
 
 .btn-msg {
