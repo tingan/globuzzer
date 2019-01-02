@@ -12,9 +12,9 @@ $(function () {
     return true;
   }
 
-  $( ".img-gallery-item" ).on('mouseenter', function(){
-     chooseCountry($(this).next().find('h5').text());
-    });
+  $(".img-gallery-item").on('mouseenter', function () {
+    chooseCountry($(this).next().find('h5').text());
+  });
 
   function chooseCountry(country_name) {
     $('.img-gallery-item').removeClass('bd-red');
