@@ -37,7 +37,7 @@
                     <span class="dropdown-text">EUR</span>
                 </a>
 
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id="currency-dropdown">
                     <a class="dropdown-item" href="#">EUR</a>
                     <a class="dropdown-item" href="#">DOLLAR</a>
                     <a class="dropdown-item" href="#">POUND</a>
@@ -99,11 +99,11 @@
                             <i class="fa fa-map-marker"></i> <span
                                 class="dropdown-text text-muted">Select a country</span>
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Sweden</a>
-                            <a class="dropdown-item" href="#">Finland</a>
-                            <a class="dropdown-item" href="#">Denmark</a>
-                            <a class="dropdown-item" href="#">Norway</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="country-dropdown">
+                            <a class="dropdown-item">Sweden</a>
+                            <a class="dropdown-item">Finland</a>
+                            <a class="dropdown-item">Denmark</a>
+                            <a class="dropdown-item">Norway</a>
                         </div>
                     </div>
                 </div>
@@ -265,11 +265,11 @@
                     <div class="featured-video h-100">
                         <a href="#">
                             <div class="embed-video embed-responsive embed-responsive-16by9 h-100">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/
+                                <iframe id="youtube-video" class="embed-responsive-item" src="https://www.youtube.com/embed/
 g9QpC7QwnRU?rel=0" allowfullscreen></iframe>
                             </div>
                         </a>
-                        <small class="video-title block-title position-absolute p-1">
+                        <small class="video-title block-title position-absolute p-1" id="video-title">
                             Visit Sweden
                         </small>
                     </div>
