@@ -36,12 +36,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="329" column="96" selection-start-line="329" selection-start-column="96" selection-end-line="329" selection-end-column="96" />
+            <state relative-caret-position="530">
+              <caret line="390" lean-forward="true" selection-start-line="390" selection-end-line="390" />
               <folding>
                 <element signature="n#ol#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#19036#19042#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/sass/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="231" column="35" lean-forward="true" selection-start-line="231" selection-start-column="35" selection-end-line="231" selection-end-column="35" />
+            <state relative-caret-position="484">
+              <caret line="239" column="22" lean-forward="true" selection-start-line="239" selection-start-column="22" selection-end-line="239" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -180,12 +181,12 @@
       <workItem from="1546159362399" duration="13741000" />
       <workItem from="1546250143546" duration="13727000" />
       <workItem from="1546337750991" duration="11890000" />
-      <workItem from="1546419042014" duration="1244000" />
+      <workItem from="1546419042014" duration="2826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40602000" />
+    <option name="totallyTimeSpent" value="42184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="740" extended-state="6" />
@@ -261,19 +262,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="231" column="35" lean-forward="true" selection-start-line="231" selection-start-column="35" selection-end-line="231" selection-end-column="35" />
+        <state relative-caret-position="484">
+          <caret line="239" column="22" lean-forward="true" selection-start-line="239" selection-start-column="22" selection-end-line="239" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="329" column="96" selection-start-line="329" selection-start-column="96" selection-end-line="329" selection-end-column="96" />
+        <state relative-caret-position="530">
+          <caret line="390" lean-forward="true" selection-start-line="390" selection-end-line="390" />
           <folding>
             <element signature="n#ol#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#19036#19042#0" expanded="true" />
           </folding>
         </state>
       </provider>

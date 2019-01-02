@@ -231,3 +231,17 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 .btn-msg {
     border-radius: 25px !important;
 }
+
+
+/* footer */
+footer {
+    background-color: $darkBlack;
+    .footer-menu {
+        font-size: 0.8em;
+    }
+    .social-icons {
+        i {
+            color: white;
+        }
+    }
+}
