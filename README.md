@@ -6,6 +6,7 @@ This is a demo implementation of responsive design. The technologies used includ
 * Node
 * Express
 * Sass
+* Git
 
 ## Install the Application
 
