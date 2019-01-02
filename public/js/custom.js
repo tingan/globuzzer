@@ -61,7 +61,7 @@ $(function () {
       });
     });
 
-  $('.video-thumbnail').on('click', function() {
+  $('.video-thumbnail').on('mouseover', function() {
     var country_name = $(this).attr('alt');
     chooseCountry(country_name);
     loadIframe(country_name);
