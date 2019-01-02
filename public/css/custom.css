@@ -107,13 +107,13 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
   width: 180px; }
 
 .bd-red {
-  outline: 2px solid red; }
+  outline: 1px solid red; }
 
 .bd-blue {
-  outline: 2px solid blue; }
+  outline: 1px solid blue; }
 
 .bd-cyan {
-  outline: 2px solid cyan; }
+  outline: 1px solid cyan; }
 
 /* motto section */
 .row-motto {
