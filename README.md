@@ -18,5 +18,5 @@ Run this command from the directory in which you want to install your new Slim F
 
 It will open a new page in http://localhost:3000.
 
-![Screenshot]()
+![Screenshot](https://github.com/tingan/globuzzer/blob/master/Screenshot.jpg)
 
