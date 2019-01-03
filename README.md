@@ -21,3 +21,4 @@ It will open a new page in http://localhost:3000.
 
 ![Screenshot](https://github.com/tingan/globuzzer/blob/master/Screenshot.png)
 
+![Screenshot2](https://github.com/tingan/globuzzer/blob/master/Screenshot2.png)
