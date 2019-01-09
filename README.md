@@ -3,6 +3,7 @@
 This is a demo implementation of responsive design. The technologies used include:
 * Bootstrap 4
 * jQuery
+* jQuery UI (for the calendar)
 * Node
 * Express
 * Sass
